@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26350ffbc5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-head">
+            <h1 class="head-name">GoShop</h1>
+        </div>
+        <div class="right-head">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#category">Categories</a></li>
+                <li><a href="#brand">Brands</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#newreleases">New Releases</a></li>
+            </ul>
+        </div>
+        <div class="sub"></div>
+    </div>
+    <div class="banner">
+        <div>
+            <P class="defination">Brand <br>New <br>Foundation</P>
+            <p class="sub-defination">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. </p>
+        </div>
+    </div>
+
+    <div>
+        <div class="subProductHead">
+            <h2>Categories</h2>
+        </div>
+        <div class="productCatagories">
+            <div class="img-banner">
+                <div class="picture p1">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor </p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p2">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p3">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p4">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p5">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p6">
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p7">                    
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+
+            <div class="img-banner">
+                <div class="picture p8">                    
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor</p>
+                </div>                
+            </div>
+                       
+        </div>
+        <div class="viewBtn">
+            <button class="productViewBtn" type="button">View Product</button>
+        </div>
+    </div>
+
+    <div class="offerBanner">
+        <!-- <div>
+            <p class="discountText">Flat 50% Discount on every product</p>
+        </div> -->
+    </div>
+    <div class="Footer">
+        <div class="getTouch">
+            <h2 class="head1">GET IN TOUCH</h2>
+            <p class="sub-head"><i class="fa-solid fa-location-dot"></i> 123 Street, New Your, USA.</p>
+            <p class="sub-head"><i class="fa-solid fa-envelope"></i> mail@gmail.com</p>
+            <p class="sub-head"><i class="fa-solid fa-phone"></i> +123 892 34324</p>
+        </div>
+        <div class="newsLatter">
+            <h2 class="head1">NEWSLETTER</h2>
+            <p class="sub-head">Lorem ipsum dolor, sit amet.</p>
+            <input class="email" placeholder="Your Email Address" type="email" id="email" name="email">
+            <input class="eSubmit" type="submit">
+            <h3 class="head1 h2">FOLLOW US</h3>
+            <p class="sub-head"><i class="fa-brands fa-instagram socia"></i><i class="fa-brands fa-whatsapp socia"></i><i class="fa-brands fa-facebook-f socia"></i><i class="fa-brands fa-twitter socia"></i><i class="fa-brands fa-linkedin-in socia"></i></p>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.left-head{
+    float: left;
+}
+.right-head{
+    float: right;    
+}
+.head-name{
+    margin: 10px;
+}
+.header{
+  padding-bottom: 8px;
+}
+.sub{
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-top: 12px;
+  }  
+  li {
+    float: left;
+  }  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .banner{
+    background-image: url(image/img1222.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: auto; */
+    height: 685px;
+    
+  }
+  .defination{
+   font-size: 80px; 
+   padding-left: 220px;
+   padding-top: 120px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .sub-defination{
+    padding-left: 225px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  .subProductHead{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 25px;
+  }
+  .productCatagories{
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+  }
+  .img-banner{
+    padding: 10px;
+    
+  }
+  .picture{   
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 250px;
+    height: 300px;
+  }
+  .p1{
+    background-image: url(image/p1.jpg);
+  }
+  .p2{
+    background-image: url(image/p2.jpg);
+  }
+  .p3{
+    background-image: url(image/p3.jpg);
+  }
+  .p4{
+    background-image: url(image/p4.jpg);
+  }
+  .p5{
+    background-image: url(image/p5.jpg);
+  }
+  .p6{
+    background-image: url(image/p6.jpg);
+  }
+  .p7{
+    background-image: url(image/p7.jpg);
+  }
+  .p8{
+    background-image: url(image/p8.jpg);
+  }
+  .desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  .viewBtn{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.productViewBtn{
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border: 2px black solid;
+}
+.offerBanner{
+  background-image: url(image/makeup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+  max-width: 100%;
+  height: 638px;
+  margin-bottom: 40px;
+  /* opacity: 0.7; */
+}
+.offerBanner:hover{
+  opacity: 0.5;
+}
+/* .discountText{
+  text-align: center;
+  line-height: 722px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  display: none;
+} */
+.Footer{
+  background-color: rgb(61, 60, 60);
+  display: flex;
+}
+.getTouch
+{
+  padding-left: 200px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.newsLatter{
+  padding-left: 400px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.head1{
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.sub-head{
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+  padding-top: 10px;
+}
+.email{
+  padding: 10px 40px 10px 10px;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 16px;
+}
+.eSubmit{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: yellow;
+  color: rgb(61, 60, 60);
+  font-size: 14px;
+}
+.h2{
+  margin-top: 16px;
+}
+.socia{
+  padding-right: 14px;
+}
